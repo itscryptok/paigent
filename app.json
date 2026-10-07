@@ -1,0 +1,1 @@
+{"expo":{"icon":"./assets/images/icon.png","name":"Paigent","orientation":"portrait","plugins":["expo-router"],"scheme":"paigent","slug":"paigent","splash":{"backgroundColor":"#0A0A0A","image":"./assets/images/splash-icon.png"},"version":"1.0.0","web":{"bundler":"metro","favicon":"./assets/images/icon.png","output":"static"}}}

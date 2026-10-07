@@ -1,0 +1,47 @@
+{
+  "dependencies": {
+    "@expo-google-fonts/inter": "0.4.2",
+    "@expo/vector-icons": "^15.1.1",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@tanstack/react-query": "5.90.21",
+    "@workspace/api-client-react": "*",
+    "expo": "~54.0.33",
+    "expo-camera": "~17.0.10",
+    "expo-constants": "~18.0.13",
+    "expo-file-system": "~19.0.21",
+    "expo-font": "~14.0.11",
+    "expo-haptics": "~15.0.8",
+    "expo-linking": "~8.0.11",
+    "expo-media-library": "~18.2.1",
+    "expo-router": "~6.0.23",
+    "expo-splash-screen": "~31.0.13",
+    "expo-status-bar": "~3.0.8",
+    "expo-web-browser": "~15.0.10",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-keyboard-controller": "~1.21.0",
+    "react-native-reanimated": "~4.1.6",
+    "react-native-safe-area-context": "5.6.2",
+    "react-native-web": "~0.21.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@types/react": "~19.1.17",
+    "babel-preset-expo": "~54.0.3",
+    "typescript": "~5.9.2"
+  },
+  "main": "expo-router/entry",
+  "name": "paigent",
+  "private": true,
+  "scripts": {
+    "build": "expo export --platform web && cp static/sitemap.xml static/robots.txt static/apple-touch-icon.png static/og-image.png dist/",
+    "export": "expo export --platform web",
+    "typecheck": "tsc --noEmit"
+  },
+  "version": "1.0.0",
+  "workspaces": [
+    "lib/api-client-react"
+  ]
+}
