@@ -31,6 +31,7 @@ function RootLayoutNav() {
   return (
     <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: Colors.bg } }}>
       <Stack.Screen name="index" />
+      <Stack.Screen name="camera" />
       <Stack.Screen name="(auth)" options={{ presentation: "modal" }} />
       <Stack.Screen name="admin" options={{ presentation: "modal" }} />
       <Stack.Screen name="upgrade" options={{ presentation: "modal" }} />
